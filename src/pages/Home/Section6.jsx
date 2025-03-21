@@ -4,6 +4,7 @@ import User1 from "../../assets/blog/review-author-1.jpg";
 import User2 from "../../assets/blog/review-author-2.jpg";
 import User3 from "../../assets/blog/review-author-3.jpg";
 import User4 from "../../assets/blog/review-author-5.jpg";
+import User5 from "../../assets/blog/ani.jpg"
 
 function Section6() {
   return (
@@ -74,12 +75,10 @@ function Section6() {
             <Carousel.Item>
               <Carousel.Caption>
                 <div className="user_img">
-                  <img src={User4} className="img-fluid" alt="user-1" />
+                  <img src={User5} className="img-fluid" alt="user-5" />
                 </div>
                 <p>
-                  " Etiam sapien sem at sagittis congue augue massa varius
-                  sodales sapien undo tempus dolor egestas magna suscipit magna
-                  tempus aliquet porta sodales augue suscipit luctus neque "
+                  " Mast burger bhai"
                 </p>
                 <div className="item_rating mb-2">
                   <i className="bi bi-star-fill"></i>
@@ -88,7 +87,7 @@ function Section6() {
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
                 </div>
-                <h5>BY AMELIE NEWLOVE</h5>
+                <h5>BY ANIRUDH YADAV</h5>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
